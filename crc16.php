@@ -36,6 +36,7 @@ include_once './crc16/crc_16_dds_110.php';
 include_once './crc16/crc_16_dect_r.php';
 include_once './crc16/crc_16_dect_x.php';
 include_once './crc16/crc_16_dnp.php';
+include_once './crc16/crc_16_fcs.php';
 include_once './crc16/crc_16_en_13757.php';
 include_once './crc16/crc_16_genibus.php';
 include_once './crc16/crc_16_maxim.php';
@@ -62,6 +63,7 @@ $crcList = array(
     $CRC_16_DECT_R_,
     $CRC_16_DECT_X_,
     $CRC_16_DNP_,
+    $CRC_16_FCS_,
     $CRC_16_EN_13757_,
     $CRC_16_GENIBUS_,
     $CRC_16_MAXIM_,
